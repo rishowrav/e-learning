@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import Banner2 from "./components/Banner/Banner2";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import Subscribe from "./components/Subscribe/Subscribe";
@@ -11,6 +12,7 @@ export default function App() {
         <Services />
         <Banner />
         <Subscribe />
+        <Banner2 />
       </main>
     </>
   );
