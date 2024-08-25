@@ -38,7 +38,7 @@ const Banner = () => {
               <motion.div
                 variants={FadeUp(0.2)}
                 initial="initial"
-                whileInView={"animation"}
+                whileInView={"animate"}
                 viewport={{ once: true }}
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
@@ -48,7 +48,7 @@ const Banner = () => {
               <motion.div
                 variants={FadeUp(0.4)}
                 initial="initial"
-                whileInView={"animation"}
+                whileInView={"animate"}
                 viewport={{ once: true }}
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
@@ -58,7 +58,7 @@ const Banner = () => {
               <motion.div
                 variants={FadeUp(0.6)}
                 initial="initial"
-                whileInView={"animation"}
+                whileInView={"animate"}
                 viewport={{ once: true }}
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >

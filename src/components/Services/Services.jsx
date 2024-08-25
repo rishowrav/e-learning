@@ -51,7 +51,7 @@ const ServicesData = [
   },
 ];
 
-const SlideLeft = (delay) => {
+export const SlideLeft = (delay) => {
   return {
     initial: {
       opacity: 0,
